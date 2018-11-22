@@ -1,0 +1,8 @@
+provider:
+  name: faas
+  gateway: http://do.get-faas.com
+functions:
+  hello-world:
+    lang: python
+    handler: ./hello-world
+    image: hello-world:latest
