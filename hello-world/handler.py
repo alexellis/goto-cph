@@ -4,4 +4,4 @@ def handle(req):
         req (str): request body
     """
 
-    return "OFC"
+    return "<html><body><h2>OFC</h2></body></html>"

@@ -6,3 +6,6 @@ functions:
     lang: python
     handler: ./hello-world
     image: hello-world:latest
+    environment:
+      content_type: "text/html"
+
